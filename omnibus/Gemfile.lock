@@ -8,10 +8,10 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus.git
-  revision: 7ce6173d7a7e9ee501ee2aed20f82d873926b299
+  revision: cd9cf3f113fc0973a4f9c5b94d79f85ba74de3ca
   branch: main
   specs:
-    omnibus (8.2.1)
+    omnibus (8.2.2)
       aws-sdk-s3 (~> 1)
       chef-cleanroom (~> 1.0)
       chef-utils (>= 15.4)
@@ -32,21 +32,21 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     artifactory (3.0.15)
     awesome_print (1.9.2)
-    aws-eventstream (1.1.1)
-    aws-partitions (1.490.0)
-    aws-sdk-core (3.119.1)
+    aws-eventstream (1.2.0)
+    aws-partitions (1.507.0)
+    aws-sdk-core (3.121.1)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.239.0)
       aws-sigv4 (~> 1.1)
       jmespath (~> 1.0)
-    aws-sdk-kms (1.46.0)
-      aws-sdk-core (~> 3, >= 3.119.0)
+    aws-sdk-kms (1.48.0)
+      aws-sdk-core (~> 3, >= 3.120.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-s3 (1.99.0)
-      aws-sdk-core (~> 3, >= 3.119.0)
+    aws-sdk-s3 (1.103.0)
+      aws-sdk-core (~> 3, >= 3.120.0)
       aws-sdk-kms (~> 1)
-      aws-sigv4 (~> 1.1)
-    aws-sigv4 (1.2.4)
+      aws-sigv4 (~> 1.4)
+    aws-sigv4 (1.4.0)
       aws-eventstream (~> 1, >= 1.0.2)
     bcrypt_pbkdf (1.1.0)
     berkshelf (7.2.2)
@@ -144,7 +144,7 @@ GEM
     faraday-net_http_persistent (1.2.0)
     faraday_middleware (1.1.0)
       faraday (~> 1.0)
-    ffi (1.15.3)
+    ffi (1.15.4)
     ffi-libarchive (1.0.17)
       ffi (~> 1.0)
     ffi-yajl (2.4.0)
