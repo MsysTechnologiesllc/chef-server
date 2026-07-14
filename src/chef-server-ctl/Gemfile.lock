@@ -188,7 +188,7 @@ GEM
       pg
       sequel
       veil
-    knife-opc (0.4.7)
+    knife-opc (0.4.8)
     knife-tidy (2.1.2)
     libyajl2 (2.1.0)
     license-acceptance (2.1.13)
